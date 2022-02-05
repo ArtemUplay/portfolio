@@ -343,10 +343,10 @@ body {
 .footer__socials {
 	display: flex;
 	justify-content: space-between;
-	margin: 0px 0px 46px 0px;
 }
 .footer__socials-link {
-	display: inline-block;
+	margin: 0px 0px 15px 0px;
+	display: block;
 }
 .footer__socials-link:last-child {
 	margin: 0;
@@ -453,7 +453,11 @@ body {
 	.footer__description br {
 		display: none;
 	}
+	.footer__socials {
+		margin: 0px 0px 46px 0px;
+	}
 	.footer__button {
-		padding: 12px 97px;
+		margin: 0px 0px 86px 0px;
+		padding: 12px 90px;
 	}
 }
